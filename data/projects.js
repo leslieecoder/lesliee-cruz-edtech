@@ -47,61 +47,181 @@ export const projects = [
     title: 'AI-Assisted Canvas Grading',
     subtitle: 'Workflow automation for faster instructor feedback',
     summary:
-      'Automated repetitive grading steps so instructors can review submissions faster without losing teaching context.',
+      'Designed an AI-supported grading workflow that helps instructors move through submissions faster while keeping review quality and decision-making in their control.',
     tags: ['Automation', 'Prompt Ops', 'Teacher Tools'],
     category: 'AI / Automation',
     previewTone: 'tone-project-a',
     badge: 'AI',
     cta: '/projects/ai-assisted-canvas-grading',
     ctaLabel: 'Request Walkthrough',
+    motionAsset: '/assets/projects/ai-assisted-canvas-grading/dashboard.png',
+    images: [
+      '/assets/projects/ai-assisted-canvas-grading/cover.png',
+      '/assets/projects/ai-assisted-canvas-grading/dashboard.png',
+      '/assets/projects/ai-assisted-canvas-grading/blueprint-manager.png',
+      '/assets/projects/ai-assisted-canvas-grading/screen1-dashboardview.png',
+      '/assets/projects/ai-assisted-canvas-grading/screen2-professorview.png',
+      '/assets/projects/ai-assisted-canvas-grading/screen3-professorview.png',
+      '/assets/projects/ai-assisted-canvas-grading/screen4.png',
+      '/assets/projects/ai-assisted-canvas-grading/screen5.png',
+      '/assets/projects/ai-assisted-canvas-grading/screen6.png',
+      '/assets/projects/ai-assisted-canvas-grading/screen7.png'
+    ],
     year: '2026',
     role: 'Automation design, prompt systems, instructor workflow research',
     overview:
-      'A grading assistant concept focused on reducing repetitive review work while preserving educator judgment.',
+      'A web app concept for instructors that organizes courses, review queues, and AI-assisted grading into one workspace built for faster feedback and less repetitive effort.',
     problem:
-      'Instructors spend time on repeatable review patterns, yet still need space for nuance and student-specific feedback.',
+      'Grading large volumes of student work is repetitive, slow, and mentally expensive. Instructors often have to switch between course views, submissions, rubrics, and written feedback, which makes it harder to stay consistent and harder to give students timely responses.',
     solution:
-      'The workflow pre-structures rubric review, drafts feedback options, and keeps the instructor in control of final comments.',
+      'I designed the experience as a guided grading system that surfaces active courses, highlights review status, and helps instructors move through submissions with more structure. The interface combines dashboard summaries, queue-based review, and AI-assisted feedback support so instructors can check progress quickly, review work in context, and still make the final grading decision themselves.',
     impact: [
-      'Reduced repetitive grading steps in the target workflow.',
-      'Kept human review central instead of replacing it.',
-      'Made the value proposition concrete for education teams.'
+      'Reduced friction across course review, submission tracking, and feedback drafting.',
+      'Made grading progress easier to scan at both the course and submission level.',
+      'Kept instructor judgment central while using AI to support speed and consistency.'
     ],
     nextSteps: [
-      'Pilot with rubric-heavy assignments.',
-      'Track time saved versus baseline grading flow.',
-      'Add instructor controls for tone and rubric strictness.'
+      'Prototype rubric-aware feedback suggestions for different assignment types.',
+      'Measure time saved against a standard Canvas grading workflow.',
+      'Add controls for grading tone, confidence flags, and feedback editing history.'
     ]
   },
   {
     slug: 'stanzaone',
     title: 'StanzaOne',
-    subtitle: 'Visual identity and product direction for a modern creative studio',
+    subtitle: 'Property management mobile app for residential complexes',
     summary:
-      'Defined a visual system, content direction, and product framing for a polished launch presence.',
-    tags: ['Brand', 'Creative Tech', 'TypeKit'],
-    category: 'Brand / Creative Tech',
+      'Designed a mobile management experience that helps property teams handle occupancy, tenants, payments, and maintenance in one place.',
+    tags: ['Mobile App', 'Dashboard', 'Property Management'],
+    category: 'Mobile / Product',
     previewTone: 'tone-project-b',
-    badge: 'Brand',
+    badge: 'App',
     cta: '/projects/stanzaone',
     ctaLabel: 'See Details',
+    motionAsset: '/assets/projects/stanzaone/Feature-1.png',
+    images: [
+      '/assets/projects/stanzaone/Cover.png',
+      '/assets/projects/stanzaone/Feature-1.png',
+      '/assets/projects/stanzaone/Feature-2.png',
+      '/assets/projects/stanzaone/Feature-3.png',
+      '/assets/projects/stanzaone/Feature-4.png',
+      '/assets/projects/stanzaone/Feature-5.png'
+    ],
     year: '2025',
-    role: 'Brand system, product storytelling, visual direction',
+    role: 'Product design, mobile UX, dashboard structure, visual direction',
     overview:
-      'A launch-ready brand and interface direction for a creative studio that needed a clearer digital presence.',
+      'A mobile property management concept built for residential complexes that need a faster way to oversee units, tenants, payments, and service requests.',
     problem:
-      'The studio needed a more cohesive way to communicate quality, clarity, and positioning across its web presence.',
+      'Property managers often juggle occupancy, tenant records, rent tracking, and maintenance requests across disconnected tools. That fragmentation slows down daily operations and makes it harder to see what needs attention right away.',
     solution:
-      'I built a visual language and content direction that aligned the identity, messaging, and product framing into one system.',
+      'I designed StanzaOne as a management-complex app with a streamlined mobile dashboard, quick actions for common tasks, and a cleaner information hierarchy. The experience focuses on the actions managers need most: adding units, registering payments, reviewing occupancy, and responding to maintenance issues without digging through cluttered screens.',
     impact: [
-      'Improved clarity of the studio offering.',
-      'Created a reusable launch framework for future marketing assets.',
-      'Raised the perceived polish of the brand across touchpoints.'
+      'Made daily property operations easier to scan from a single dashboard.',
+      'Reduced friction around high-frequency tasks like tenant setup and payment logging.',
+      'Created a more modern mobile interface for residential complex management.'
     ],
     nextSteps: [
-      'Extend the system into social and campaign templates.',
-      'Document voice and motion guidelines.',
-      'Create modular web sections for faster iteration.'
+      'Expand the app with resident-facing views and notifications.',
+      'Add deeper maintenance tracking with status updates and assignment flows.',
+      'Test dashboard clarity with property managers across different portfolio sizes.'
+    ]
+  },
+  {
+    slug: 'm-and-m-dashboard',
+    title: 'M&M Dashboard',
+    subtitle: 'A dashboard concept for monitoring product activity and key metrics',
+    summary:
+      'Designed a clean dashboard view that makes important information easier to scan and act on.',
+    tags: ['Dashboard', 'Product Design', 'UI'],
+    category: 'Frontend / UI',
+    previewTone: 'tone-project-e',
+    badge: 'Dash',
+    cta: 'https://leslieecrux.framer.website/m-m-dashboard',
+    ctaLabel: 'Open Project',
+    liveUrl: 'https://leslieecrux.framer.website/m-m-dashboard',
+    images: ['/assets/projects/m-and-m-dashboard/cover.png'],
+    year: '2026',
+    role: 'Product design, dashboard UX, interface direction',
+    overview:
+      'A dashboard concept focused on presenting product information in a clear, structured, and visually polished way.',
+    problem:
+      'Complex dashboards can bury the most important signals under clutter, making it harder for users to understand what needs attention.',
+    solution:
+      'This concept emphasizes hierarchy, readability, and a calmer layout so users can review metrics and status information faster.',
+    impact: [
+      'Created a clearer dashboard structure for high-priority information.',
+      'Improved scanability across cards, charts, and supporting content.',
+      'Established a stronger visual direction for the product surface.'
+    ],
+    nextSteps: [
+      'Test the information hierarchy with real users.',
+      'Add responsive states for smaller screens.',
+      'Refine chart interactions and drill-down behavior.'
+    ]
+  },
+  {
+    slug: 'collector-dashboard',
+    title: 'Collector Dashboard',
+    subtitle: 'A dashboard experience for organizing collection insights and activity',
+    summary:
+      'Framed collection data into a dashboard layout that feels easier to browse and manage.',
+    tags: ['Dashboard', 'UX', 'Visual Design'],
+    category: 'Frontend / UI',
+    previewTone: 'tone-project-f',
+    badge: 'UI',
+    cta: 'https://leslieecrux.framer.website/collector-dashboard',
+    ctaLabel: 'Open Project',
+    liveUrl: 'https://leslieecrux.framer.website/collector-dashboard',
+    images: ['/assets/projects/collector-dashboard/cover.png'],
+    year: '2026',
+    role: 'UX design, visual systems, interaction design',
+    overview:
+      'A dashboard concept built to make collection-oriented workflows easier to understand at a glance.',
+    problem:
+      'Collection interfaces can become visually dense, which makes it difficult to review inventory, patterns, and recent updates quickly.',
+    solution:
+      'The design simplifies the dashboard structure, highlights key content, and creates a more approachable browsing experience.',
+    impact: [
+      'Improved clarity across dashboard sections and supporting details.',
+      'Made collection information easier to scan and compare.',
+      'Created a more cohesive visual language for the interface.'
+    ],
+    nextSteps: [
+      'Add filtering and sorting states to the concept.',
+      'Explore expanded detail views for individual items.',
+      'Test alternative density levels for power users.'
+    ]
+  },
+  {
+    slug: 'bible-rescue',
+    title: 'Bible Rescue',
+    subtitle: 'A landing and product experience concept for a focused rescue app',
+    summary:
+      'Shaped a clearer and more engaging digital experience around the Bible Rescue concept.',
+    tags: ['Web Design', 'UX', 'Product Concept'],
+    category: 'Frontend / UI',
+    previewTone: 'tone-project-d',
+    badge: 'Web',
+    cta: 'https://leslieecrux.framer.website/bible-rescue',
+    ctaLabel: 'Open Project',
+    liveUrl: 'https://leslieecrux.framer.website/bible-rescue',
+    year: '2026',
+    role: 'Product concept, interface design, visual storytelling',
+    overview:
+      'A product concept page designed to communicate the Bible Rescue experience with more clarity, warmth, and focus.',
+    problem:
+      'Without a strong visual and content structure, product concepts can feel vague and fail to communicate their value quickly.',
+    solution:
+      'The page uses clearer hierarchy, focused messaging, and a stronger visual rhythm to make the concept easier to understand.',
+    impact: [
+      'Made the product concept easier to grasp on first view.',
+      'Improved the balance between storytelling and interface clarity.',
+      'Created a stronger presentation surface for sharing the work.'
+    ],
+    nextSteps: [
+      'Expand the concept into additional supporting screens.',
+      'Refine messaging for different audiences.',
+      'Test alternate layouts for stronger conversion flow.'
     ]
   },
   {
@@ -259,7 +379,7 @@ export const projects = [
       'Integrate export flows into LMS publishing.'
     ]
   }
-];
+].filter((project) => project.images?.[0]);
 
 export const projectCategories = ['All', ...new Set(projects.map((project) => project.category))];
 

@@ -6,6 +6,10 @@ import { projects } from '../data/projects';
 
 const visibleLimit = 3;
 
+function isExternalUrl(href) {
+  return href.startsWith('http');
+}
+
 function ProjectTagList({ tags, limit }) {
   return (
     <div className="tag-row project-tag-row">
@@ -36,7 +40,12 @@ export default function ProjectsSection() {
 
       <div className="project-shell">
         {featuredProject ? (
-          <Link className="featured-project featured-project-link" href={featuredProject.cta}>
+          <Link
+            className="featured-project featured-project-link"
+            href={featuredProject.cta}
+            target={isExternalUrl(featuredProject.cta) ? '_blank' : undefined}
+            rel={isExternalUrl(featuredProject.cta) ? 'noreferrer' : undefined}
+          >
             <div className={`project-preview project-preview-large ${featuredProject.previewTone}`}>
               {featuredProjectImage ? (
                 <img className="case-project-image" src={featuredProjectImage} alt={`${featuredProject.title} preview`} />
@@ -85,12 +94,22 @@ export default function ProjectsSection() {
           </div>
           <div className="project-grid">
             {visibleProjects.map((project) => (
-              <Link key={project.title} className="project-card compact project-card-link" href={project.cta}>
+              <Link
+                key={project.title}
+                className="project-card compact project-card-link"
+                href={project.cta}
+                target={isExternalUrl(project.cta) ? '_blank' : undefined}
+                rel={isExternalUrl(project.cta) ? 'noreferrer' : undefined}
+              >
                 <div className={`project-preview ${project.previewTone}`}>
-                  <div className="project-preview-mark">
-                    <span className="preview-icon">⌲</span>
-                    <span>{project.category}</span>
-                  </div>
+                  {project.images?.[0] ? (
+                    <img className="case-project-image" src={project.images[0]} alt={`${project.title} preview`} />
+                  ) : (
+                    <div className="project-preview-mark">
+                      <span className="preview-icon">⌲</span>
+                      <span>{project.category}</span>
+                    </div>
+                  )}
                 </div>
                 <div className="project-copy">
                   <h3>{project.title}</h3>

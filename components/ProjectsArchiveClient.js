@@ -6,6 +6,10 @@ import { projectCategories, projects } from '../data/projects';
 
 const archiveCategories = projectCategories.filter((category) => category !== 'All');
 
+function isExternalUrl(href) {
+  return href.startsWith('http');
+}
+
 export default function ProjectsArchiveClient() {
   const [activeCategory, setActiveCategory] = useState('All');
 
@@ -42,10 +46,14 @@ export default function ProjectsArchiveClient() {
               {categoryProjects.map((project) => (
                 <article key={project.slug} className="archive-card">
                   <div className={`project-preview ${project.previewTone}`}>
-                    <div className="project-preview-mark">
-                      <span className="preview-icon">⌲</span>
-                      <span>{project.badge}</span>
-                    </div>
+                    {project.images?.[0] ? (
+                      <img className="case-project-image" src={project.images[0]} alt={`${project.title} preview`} />
+                    ) : (
+                      <div className="project-preview-mark">
+                        <span className="preview-icon">⌲</span>
+                        <span>{project.badge}</span>
+                      </div>
+                    )}
                   </div>
                   <div className="archive-card-top">
                     <h3>{project.title}</h3>
@@ -57,7 +65,14 @@ export default function ProjectsArchiveClient() {
                       <span key={tag}>{tag}</span>
                     ))}
                   </div>
-                  <Link className="text-link" href={project.cta}>{project.ctaLabel}</Link>
+                  <Link
+                    className="text-link"
+                    href={project.cta}
+                    target={isExternalUrl(project.cta) ? '_blank' : undefined}
+                    rel={isExternalUrl(project.cta) ? 'noreferrer' : undefined}
+                  >
+                    {project.ctaLabel}
+                  </Link>
                 </article>
               ))}
             </div>
