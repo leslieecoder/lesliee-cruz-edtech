@@ -4,7 +4,7 @@ export const projects = [
     title: 'Dueable',
     subtitle: 'AI-powered learning assistant for college students',
     summary:
-      'Traced the real friction points around deadlines, actionable steps, and progress visibility, then translated them into a calmer, clearer study flow.',
+      'A calmer way for students to plan work, stay on track, and know what to do next.',
     tags: ['AI', 'React', 'TypeScript', 'Mobile'],
     category: 'Learning Systems',
     previewTone: 'tone-project-c',
@@ -47,7 +47,7 @@ export const projects = [
     title: 'AI-Assisted Canvas Grading',
     subtitle: 'Workflow automation for faster instructor feedback',
     summary:
-      'Designed an AI-supported grading workflow that helps instructors move through submissions faster while keeping review quality and decision-making in their control.',
+      'A grading flow that helps instructors move faster without losing control of feedback.',
     tags: ['Automation', 'Prompt Ops', 'Teacher Tools'],
     category: 'AI / Automation',
     previewTone: 'tone-project-a',
@@ -91,7 +91,7 @@ export const projects = [
     title: 'StanzaOne',
     subtitle: 'Property management mobile app for residential complexes',
     summary:
-      'Designed a mobile management experience that helps property teams handle occupancy, tenants, payments, and maintenance in one place.',
+      'A mobile app for managing tenants, payments, and maintenance in one place.',
     tags: ['Mobile App', 'Dashboard', 'Property Management'],
     category: 'Mobile / Product',
     previewTone: 'tone-project-b',
@@ -131,7 +131,7 @@ export const projects = [
     title: 'M&M Dashboard',
     subtitle: 'A dashboard concept for monitoring product activity and key metrics',
     summary:
-      'Designed a clean dashboard view that makes important information easier to scan and act on.',
+      'A dashboard concept built to make key info easier to scan at a glance.',
     tags: ['Dashboard', 'Product Design', 'UI'],
     category: 'Frontend / UI',
     previewTone: 'tone-project-e',
@@ -164,7 +164,7 @@ export const projects = [
     title: 'Collector Dashboard',
     subtitle: 'A dashboard experience for organizing collection insights and activity',
     summary:
-      'Framed collection data into a dashboard layout that feels easier to browse and manage.',
+      'A cleaner dashboard for browsing collections and tracking activity.',
     tags: ['Dashboard', 'UX', 'Visual Design'],
     category: 'Frontend / UI',
     previewTone: 'tone-project-f',

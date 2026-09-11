@@ -13,14 +13,13 @@ export default function Footer() {
     <>
       <section className="footer-cta-section" id="contact">
         <div className="footer-inner section-width">
-          <img className="footer-logo" src="/assets/projects/dueable/complete-logo.png" alt="Dueable logo" />
           <h2>
-            Let&apos;s build better
+            Let&apos;s design better
             <br />
-            <span className="light-italic">learning experiences.</span>
+            <span className="light-italic">digital experiences.</span>
           </h2>
           <p>
-            Available for full-time roles in AI, learning systems, and front-end engineering.
+            Open to UX/UI roles where I can design, learn fast, and help make the product feel better.
           </p>
           <div className="footer-actions">
             {footerLinks.map((link) => (

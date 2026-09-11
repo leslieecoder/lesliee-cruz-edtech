@@ -6,32 +6,32 @@ const skills = [
     icon: FaBrain,
     iconColor: '#7b57ff',
     iconSurface: '#f2efff',
-    title: 'AI',
-    items: ['Automation', 'Workflows', 'Prompt Design', 'AI Assisted UX']
+    title: 'Research + Testing',
+    items: ['Usability Testing', 'User Flows', 'A/B Testing Support', 'Design Iteration']
   },
   {
     className: 'skill-card skill-card-bottom-left',
     icon: FaCodeBranch,
     iconColor: '#ff7f50',
     iconSurface: '#fff1eb',
-    title: 'Backend',
-    items: ['Node.js', 'APIs', 'Supabase', 'Firebase']
+    title: 'Product Collaboration',
+    items: ['Cross-Functional Work', 'Developer Handoff', 'Design Reviews', 'Component Thinking']
   },
   {
     className: 'skill-card skill-card-top-right',
     icon: FaPalette,
     iconColor: '#d65db1',
     iconSurface: '#fff0fa',
-    title: 'Design + Learning',
-    items: ['Figma', 'UX', 'Learning Systems', 'LX']
+    title: 'UX/UI Design',
+    items: ['Figma', 'Wireframes', 'Mockups', 'Prototypes']
   },
   {
     className: 'skill-card skill-card-bottom-right',
     icon: FaReact,
     iconColor: '#00a6d6',
     iconSurface: '#ebfbff',
-    title: 'Front End',
-    items: ['React', 'JavaScript', 'HTML/CSS', 'TypeScript']
+    title: 'Responsive UI',
+    items: ['Accessibility', 'Responsive Design', 'HTML/CSS', 'React']
   }
 ];
 
@@ -39,8 +39,8 @@ export default function SkillsSection() {
   return (
     <section className="skills section-width" id="skills">
       <div className="section-heading">
-        <p className="script-kicker">Skills</p>
-        <h2>What I work with</h2>
+        <p className="script-kicker">Core strengths</p>
+        <h2>How I approach design</h2>
       </div>
 
       <div className="skills-stage">

@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 
-const roles = ['AI Systems Builder', 'Software Engineer', 'UX Designer'];
+const roles = ['UX/UI Designer', 'Product Designer', 'Front-End Designer'];
 
 export default function Hero() {
   const [roleIndex, setRoleIndex] = useState(0);
@@ -54,12 +54,11 @@ export default function Hero() {
         <span className={`gradient-text role-cycle${isFading ? ' is-fading' : ''}`}>{roles[roleIndex]}</span>
       </h1>
       <p className="hero-copy">
-        I build technology that makes learning more accessible, adaptive,
-        and engaging.
+        I design thoughtful web and mobile experiences that feel clear, useful, and a little delightful.
       </p>
       <div className="hero-actions">
-        <a className="button button-primary" href="#projects">View My Work</a>
-        <a className="button button-secondary" href="#contact">Let&apos;s Work Together</a>
+        <a className="button button-primary" href="#projects">View UX Case Studies</a>
+        <a className="button button-secondary" href="#contact">Contact Me</a>
       </div>
     </section>
   );

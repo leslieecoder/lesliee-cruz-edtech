@@ -6,12 +6,15 @@ export default function AboutSection() {
         <div className="about-copy">
           <p className="script-kicker align-left">A bit about me</p>
           <h2>
-            Engineering with a
+            A creative person who
             <br />
-            <span className="light-italic">learning mindset.</span>
+            <span className="light-italic">cares about people.</span>
           </h2>
           <p>
-            My journey started with a <span className="about-highlight">desire to teach</span> elementary education because of my love for helping others learn. Over time, my <span className="about-highlight">passion for design</span> took over, and my drive for a challenge pushed me into <span className="about-highlight">software engineering</span>. That&apos;s where I discovered my ideal intersection: <span className="about-highlight">UX-focused front-end development</span>. Today, I get to write code, design user-first experiences, and <span className="about-highlight">teach what I love</span>. Building tech for non-profits and educational institutions is my passion because I truly believe <span className="about-highlight about-highlight-script">everyone is capable of learning when given the right support</span>.
+            I&apos;m a <span className="about-highlight">creative person</span> who really loves people and enjoys making things feel easier to use. A big part of why I love design is because it lets me <span className="about-highlight">help others navigate web experiences more easily</span>.
+          </p>
+          <p>
+            My background in <span className="about-highlight">design, front-end, and education</span> shaped the way I think. I like mixing creativity with empathy, then turning that into clean flows, thoughtful screens, and experiences that feel simple, friendly, and human.
           </p>
         </div>
 

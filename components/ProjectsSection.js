@@ -34,8 +34,8 @@ export default function ProjectsSection() {
   return (
     <section className="projects section-width" id="projects">
       <div className="section-heading">
-        <p className="script-kicker">Things I&apos;ve built</p>
-        <h2>Featured Projects</h2>
+        <p className="script-kicker">Selected case studies</p>
+        <h2>UX/UI Work</h2>
       </div>
 
       <div className="project-shell">
